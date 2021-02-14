@@ -27,3 +27,7 @@ Note: This assumes WSL is enabled, Ubuntu LTS (20) is installed, and GitBash is 
 3. Paste in the the contents of `Windows Terminal/settings.json`
 4. Replace any file references, mine will not be correct. I've left common alternative locations for files commented out, although I'm not convinced %USERPROFILE% always works in here.
     - I use an abnormal directory structure on my PC where Users and 3rd party software have dedicated drives/partitions. You're files probably exist in the default locations.
+
+## TODO:
+- [Fix "visual bell"](https://github.com/microsoft/terminal/issues/7200) in GitBash
+- Configure GitBash to autostart ssh agent (`eval `ssh-agent -s`?) or choose a simpler SSH solution.
