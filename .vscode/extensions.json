@@ -1,0 +1,58 @@
+{
+	"recommendations": [
+		// General
+		"streetsidesoftware.code-spell-checker",
+		"eamodio.gitlens",
+		"ms-vsliveshare.vsliveshare-pack",
+        "vscode-icons-team.vscode-icons",
+		"shd101wyy.markdown-preview-enhanced",
+		"ryu1kn.partial-diff",
+        "christian-kohler.path-intellisense",
+		"christian-kohler.npm-intellisense",
+		"mrmlnc.vscode-duplicate",
+		"mitchdenny.ecdc", // Encode Decode
+		"fabiospampinato.vscode-terminals",
+		"coenraads.bracket-pair-colorizer-2",
+		"msjsdiag.debugger-for-chrome",
+		"firefox-devtools.vscode-firefox-debug",
+		// Windows emoji tool seems jank inside VS Code.
+        "perkovec.emoji",
+        // Assumes WSL is setup
+		"ms-vscode-remote.remote-wsl",
+
+		// Formatting
+		"dbaeumer.vscode-eslint",
+        "editorconfig.editorconfig",
+		"hookyqr.beautify",
+		"formulahendry.auto-close-tag",
+		"formulahendry.auto-rename-tag",
+		"tyriar.sort-lines",
+		"esbenp.prettier-vscode",
+
+		// Jest
+		"orta.vscode-jest",
+		"kavod-io.vscode-jest-test-adapter",
+
+		// .ENVs
+		"mikestead.dotenv",
+		"ecksdy.env-switcher",
+
+		// Syntax support
+		"ms-azuretools.vscode-docker",
+		"hashicorp.terraform",
+		// Jenkins specific
+		// "ivory-lab.jenkinsfile-support",
+		// "tabeyti.jenkins-jack",
+
+        // Angular
+        // "ms-vscode.vscode-typescript-tslint-plugin",
+		// "nrwl.angular-console",
+		// "mikael.angular-beastcode",
+		// "natewallace.angular2-inline",
+		// "marinhobrandao.angular2tests",
+		// "cyrilletuzi.angular-schematics",
+		// "angular.ng-template",
+		// "ghaschel.vscode-angular-html",
+		// "nrwl.angular-console"
+	]
+}

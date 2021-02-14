@@ -1,0 +1,56 @@
+{
+    // Disable all telemetry options
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "partialDiff.enableTelemetry": false,
+    "gitlens.advanced.telemetry.enabled": false,
+
+
+    // Editor
+    "editor.emptySelectionClipboard": false,
+    "editor.formatOnType": true,
+    "editor.linkedEditing": true,
+    "editor.renderWhitespace": "all",
+    "editor.tabSize": 2,
+    // Editor Font
+    "editor.fontFamily": "Fira code, Victor Mono,  Consolas, 'Courier New', monospace",
+    "editor.fontWeight": "normal",
+    "editor.fontLigatures": true,
+
+
+    // Terminal
+    // "terminal.integrated.shell.windows": ""
+    "terminal.integrated.shell.windows": "S:/Program Files/Git/bin/bash.exe",
+    "terminal.integrated.shellArgs.windows": [ "-l" ],
+    "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.scrollback": 5000,
+
+
+    // Workbench
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Monokai",
+    "workbench.tree.indent": 13,
+    "workbench.tree.renderIndentGuides": "always",
+
+
+    // Emmet
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.showSuggestionsAsSnippets": true,
+
+    "breadcrumbs.enabled": true,
+
+
+    // Plugins
+    "typescript.updateImportsOnFileMove.enabled": "always",
+
+    "cSpell.userWords": [
+        "CREDS",
+        "Graycen",
+        "junit",
+        "pageview"
+    ],
+
+    "vsicons.dontShowNewVersionMessage": false,
+
+    "diffEditor.ignoreTrimWhitespace": false,
+}
