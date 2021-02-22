@@ -33,6 +33,7 @@
     "workbench.tree.indent": 13,
     "workbench.tree.renderIndentGuides": "always",
 
+
     // Colors
     "workbench.colorCustomizations": { 
         "editorRuler.foreground": "#301919", 
