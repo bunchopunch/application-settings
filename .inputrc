@@ -1,0 +1,48 @@
+# This file should live in your home/user folder and overrides settings used by
+# readline when the terminal is handling keystrokes.
+#
+# More info at https://ss64.com/bash/syntax-inputrc.html
+
+# Windows Specific ############################################################
+
+# Ignore casing during autocomplete, as Windows is case insensitive.
+set completion-ignore-case on
+
+# When autocomplete is run, show matches of all casing.
+set show-all-if-ambiguous on
+
+# Prevent GitBash flicker in Windows Terminal by removing the visual bell.
+set bell-style none
+
+# General #####################################################################
+
+# Based on a call to `stat`, add a mark to denote file type.
+set visible-stats on
+
+# Based on a call to `stat`, add a mark/color to listings returned by 
+# autocomplete.
+set colored-stats on
+
+# Display a `/` at the end of directory names
+set mark-directories on
+
+# If `mark-directories` is on, display a `/` at the end of symlink names.
+set mark-symlinked-directories on
+
+# Use everything currently typed in when autocompleting, not just everything up
+# to the cursor position.
+set skip-completed-text on
+
+# Search through command history using they the text already present for more 
+# command searches.
+"\e[B": history-search-forward
+"\e[A": history-search-backward
+
+# Use Alt/Meta + Delete to delete the preceding word.
+# Not sure if this is really working.
+"\e[3;3~": kill-word
+
+# Allow UTF-8 input and output.
+set input-meta on
+set output-meta on
+set convert-meta off

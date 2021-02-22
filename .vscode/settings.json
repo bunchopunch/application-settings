@@ -11,6 +11,7 @@
     "editor.formatOnType": true,
     "editor.linkedEditing": true,
     "editor.renderWhitespace": "all",
+    "editor.rulers": [ 80, 120, 140 ],
     "editor.tabSize": 2,
     // Editor Font
     "editor.fontFamily": "Fira code, Victor Mono,  Consolas, 'Courier New', monospace",
@@ -31,6 +32,34 @@
     "workbench.colorTheme": "Monokai",
     "workbench.tree.indent": 13,
     "workbench.tree.renderIndentGuides": "always",
+
+    // Colors
+    "workbench.colorCustomizations": { 
+        "editorRuler.foreground": "#301919", 
+
+        // TERMINAL: Classic Dark
+        // https://glitchbone.github.io/vscode-base16-term/#/classic-dark
+        "terminal.background":"#151515",
+        "terminal.foreground":"#D0D0D0",
+        "terminalCursor.background":"#D0D0D0",
+        "terminalCursor.foreground":"#D0D0D0",
+        "terminal.ansiBlack":"#151515",
+        "terminal.ansiBlue":"#6A9FB5",
+        "terminal.ansiBrightBlack":"#505050",
+        "terminal.ansiBrightBlue":"#6A9FB5",
+        "terminal.ansiBrightCyan":"#75B5AA",
+        "terminal.ansiBrightGreen":"#90A959",
+        "terminal.ansiBrightMagenta":"#AA759F",
+        "terminal.ansiBrightRed":"#AC4142",
+        "terminal.ansiBrightWhite":"#F5F5F5",
+        "terminal.ansiBrightYellow":"#F4BF75",
+        "terminal.ansiCyan":"#75B5AA",
+        "terminal.ansiGreen":"#90A959",
+        "terminal.ansiMagenta":"#AA759F",
+        "terminal.ansiRed":"#AC4142",
+        "terminal.ansiWhite":"#D0D0D0",
+        "terminal.ansiYellow":"#F4BF75"
+    },
 
 
     // Emmet
