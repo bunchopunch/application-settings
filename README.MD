@@ -29,5 +29,4 @@ Note: This assumes WSL is enabled, Ubuntu LTS (20) is installed, and GitBash is 
     - I use an abnormal directory structure on my PC where Users and 3rd party software have dedicated drives/partitions. You're files probably exist in the default locations.
 
 ## TODO:
-- [Fix "visual bell"](https://github.com/microsoft/terminal/issues/7200) in GitBash
 - Configure GitBash to autostart ssh agent (`eval `ssh-agent -s`?) or choose a simpler SSH solution.
